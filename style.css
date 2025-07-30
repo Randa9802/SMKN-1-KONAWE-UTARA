@@ -1,0 +1,78 @@
+/* style.css */
+
+/* Umum */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Sticky Menu */
+.sticky-menu {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #d61818;
+    border-bottom: 1px solid #ddd;
+}
+
+.sticky-menu .btn {
+    margin: 0 10px;
+}
+
+/* Sambutan */
+.Judul-Sambutan {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #0056b3;
+
+}
+
+.Isi-Sambutan {
+    font-size: 1.1em;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Gambar Sekolah */
+img[alt="Foto Sekolah"] {
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Konten Dinamis */
+.Visi-Misi, .Profil-Sekolah, .Program-Keahlian {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.Visi-Misi h2, .Profil-Sekolah h3, .Program-Keahlian h4 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+/* Daftar Program Keahlian */
+.Program-Keahlian ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.Program-Keahlian li {
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+/* Responsive Image */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: rgb(255, 255, 251) !important;
+}
