@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="vh2FqikyjTlH6K48W6X37u8mDUSOlNNpgNknVTTs100" />
+    <meta name="description" content="Website resmi SMKN 1 Konawe Utara. Berisi profil sekolah, jurusan, visi misi, dan informasi lainnya.">
+    <meta name="keywords" content="SMKN 1 Konawe Utara, SMK, Konawe, TKJ, Sekolah, Pendidikan">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE SMKN 1 KONAWE UTARA</title>
+
+    <!-- CSS Bootstrap & Custom -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Tombol Navigasi -->
+    <div class="sticky-menu text-center py-2 bg-light shadow-sm">
+        <button onclick="tambahMenu('VisiMisiContent')" class="btn btn-primary">Visi & Misi</button>
+        <button onclick="tambahMenu('ProfilSekolahContent')" class="btn btn-success">Profil Sekolah</button>
+        <button onclick="tambahMenu('ProgramKeahlianContent')" class="btn btn-warning">Program Keahlian</button>
+    </div>
+
+    <!-- Sambutan -->
+    <div class="container text-center mt-5">
+        <img src="logosekolah.png" alt="logo sekolah">
+        <h1 class="Judul-Sambutan">HAY SELAMAT DATANG</h1>
+        <p class="Isi-Sambutan"> 
+            Selamat Datang di Website Resmi SMKN 1 Konawe Utara. SMK Negeri 1 Konawe Utara hadir sebagai lembaga pendidikan vokasi 
+            yang berkomitmen mencetak generasi terampil, mandiri, dan siap bersaing di dunia kerja maupun dunia usaha.
+        </p> 
+    </div>
+
+    <img src="1.png" alt="foto sekolah" width="100%">
+
+    <!-- Konten Dinamis -->
+    <div class="container mt-4">
+
+        <!-- Visi & Misi -->
+        <div id="VisiMisiContent" class="Visi-Misi" style="display: none;">
+            <h2>Visi & Misi</h2>
+            <p>
+                "Menghasilkan lulusan yang kompeten dan profesional, menyiapkan interpreneur muda di bidang kemaritiman, teknik informatika, bisnis
+                dan keuangan, serta tenaga kerja yang cakap di bidang teknik geologi pertambangan yang berkarakter dan berakhlak mulia berlandaskan iman dan takwa."
+            </p>
+        </div>
+
+        <!-- Profil Sekolah -->
+        <div id="ProfilSekolahContent" class="Profil-Sekolah" style="display: none;">
+            <h3>Profil Sekolah</h3>
+            <p>
+                SMK Negeri 1 Konawe Utara didirikan pada tahun 2010 beralamat di JL. Poros Mowundo-Tapunggaya. Alumni pertama lulus pada 2013. 
+                Awalnya bernama SMKN 1 MOLAWE, lalu pada 2021 berganti menjadi SMKN 1 KONAWE UTARA. 
+                Saat awal hanya ada 2 program keahlian: NKPI dan TKJ. Tahun 2018 bertambah AKL, lalu di tahun 2025 ditambahkan Teknik Geologi Pertambangan (TGP).
+                Sekolah ini menjalin kerja sama dengan dunia usaha dan industri, berfokus pada pendidikan karakter, dan kompetensi berbasis industri.
+            </p>
+
+            <table>
+                <tr>
+                    <td><strong>Nama Sekolah</strong></td>
+                    <td>: SMKN 1 KONAWE UTARA</td>
+                </tr>
+                <tr>
+                    <td><strong>NPSN</strong></td>
+                    <td>: 40404711</td>
+                </tr>
+                <tr>
+                    <td><strong>Alamat</strong></td>
+                    <td>: JL. Poros Mowundo-Tapungaya, Kec. Molave, Kel. Mowundo</td>
+                </tr>
+                <tr>
+                    <td><strong>Status</strong></td>
+                    <td>: Negeri</td>
+                </tr>
+                <tr>
+                    <td><strong>Akreditasi</strong></td>
+                    <td>: B</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Program Keahlian -->
+        <div id="ProgramKeahlianContent" class="Program-Keahlian" style="display: none;">
+            <h4>Program Keahlian</h4>
+            <ul>
+                <li>Nautica Kapal Penangkap Ikan (NKPI)</li>
+                <li>Teknik Jaringan Komputer Dan Telekomunikasi (TJKT)</li>
+                <li>Akuntansi Dan Keuangan Lembaga (AKL)</li>
+                <li>Teknik Geologi Pertambangan (TGP)</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
